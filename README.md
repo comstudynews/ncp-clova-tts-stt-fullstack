@@ -3,7 +3,7 @@
 - 프론트엔드 화면
 - 텍스트를 음성으로, 음성을 텍스트로 변환 하는 기술 인공지능 API 활용.
 
-![Untitled](NCP%20CLOVA%20(tts,%20stt)%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%208d24d3efdd0341c3a321bad0989ef823/Untitled.png)
+![Untitled](https://github.com/comstudynews/ncp-clova-tts-stt-fullstack/blob/master/README_img/Untitled.png)
 
 # 참고 문서
 
@@ -28,21 +28,21 @@
 
 - **주의**: CLOVA Voice-Preminum은 기본료 월 90,000원 (tts 서비스를 위해서 필요)
 
-![Untitled](NCP%20CLOVA%20(tts,%20stt)%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%208d24d3efdd0341c3a321bad0989ef823/Untitled%201.png)
+![Untitled](https://github.com/comstudynews/ncp-clova-tts-stt-fullstack/blob/master/README_img/Untitled%201.png)
 
 ### 서비스 환경 등록
 
 - (선택) CLOVA Speech Recognition (CSR) 선택 시 Android 앱 패키지 이름 또는 iOS Bundle ID를 입력해야 합니다. 입력하지 않는 경우, SDK 이용에 일부 제약이 있을 수 있습니다.
 
-![Untitled](NCP%20CLOVA%20(tts,%20stt)%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%208d24d3efdd0341c3a321bad0989ef823/Untitled%202.png)
+![Untitled](https://github.com/comstudynews/ncp-clova-tts-stt-fullstack/blob/master/README_img/Untitled%202.png)
 
 ### 인증 정보 확인
 
-![Untitled](NCP%20CLOVA%20(tts,%20stt)%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%208d24d3efdd0341c3a321bad0989ef823/Untitled%203.png)
+![Untitled](https://github.com/comstudynews/ncp-clova-tts-stt-fullstack/blob/master/README_img/Untitled%203.png)
 
 ### 인증 정보
 
-![Untitled](NCP%20CLOVA%20(tts,%20stt)%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%208d24d3efdd0341c3a321bad0989ef823/Untitled%204.png)
+![Untitled](https://github.com/comstudynews/ncp-clova-tts-stt-fullstack/blob/master/README_img/Untitled%204.png)
 
 # 1. 백엔드 구현
 
@@ -50,7 +50,7 @@
 - Spring Boot 3
 - Maven
 
-![Untitled](NCP%20CLOVA%20(tts,%20stt)%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%208d24d3efdd0341c3a321bad0989ef823/Untitled%205.png)
+![Untitled](https://github.com/comstudynews/ncp-clova-tts-stt-fullstack/blob/master/README_img/Untitled%205.png)
 
 ### pom.xml
 
@@ -477,7 +477,7 @@ uploadpath >> C:\Users\beomj\AppData\Local\Temp\tomcat-docbase.8080.463685679882
 - 프론트 엔드 구현 전에 먼저 PostMan으로 요청 테스트 합니다.
 - Params 설정을 Body > form-data로 설정 하면 Key 속성에 **`File / Text`** 선택 옵션이 나타납니다. **`File`**로 선택하면 Value 속성에 파일 선택 버튼이 생성 됩니다.
 
-![Untitled](NCP%20CLOVA%20(tts,%20stt)%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%208d24d3efdd0341c3a321bad0989ef823/Untitled%206.png)
+![Untitled](https://github.com/comstudynews/ncp-clova-tts-stt-fullstack/blob/master/README_img/Untitled%206.png)
 
 # 2. 프론트 엔드 구현
 
@@ -488,7 +488,7 @@ uploadpath >> C:\Users\beomj\AppData\Local\Temp\tomcat-docbase.8080.463685679882
 - npm i -g serve
 - serve -s build
 
-![Untitled](NCP%20CLOVA%20(tts,%20stt)%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%208d24d3efdd0341c3a321bad0989ef823/Untitled%207.png)
+![Untitled](https://github.com/comstudynews/ncp-clova-tts-stt-fullstack/blob/master/README_img/Untitled%207.png)
 
 ### 의존성 추가
 
